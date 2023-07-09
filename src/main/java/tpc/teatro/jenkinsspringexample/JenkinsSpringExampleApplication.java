@@ -17,4 +17,9 @@ public class JenkinsSpringExampleApplication {
 	public String get(){
 		return "What you see is what you get ~Teatro";
 	}
+
+	@GetMapping("/dos")
+	public String get2(){
+		return "dos";
+	}
 }
